@@ -98,6 +98,10 @@ with the temperature from the orthomosaic.
 Typically, if sth doesnt work, check the `config/config.R` file and make sure it
 is consistent with the formating in the files.
 
+# Authorship:
+Philipp Tandler
+for questions, reach out to philipp.tandler@protonmail.ch
+
 
 
 
