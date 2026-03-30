@@ -2,9 +2,9 @@
 #' for time formatting, see https://www.statscodes.com/basics/dates-and-times-in-r/
 
 # format of the tidbit record sheet
-tidbitsheet_colname_time <- 2
+tidbitsheet_colname_time <- 2 # name or just the column number
 tidbitsheet_time_format <- "%m/%d/%Y %H:%M:%S"
-tidbitsheet_colname_temperature <- 3
+tidbitsheet_colname_temperature <- 3 # name or just column number
 TB_suffix <- ".csv"
 
 # for batch process: format time input sheet
