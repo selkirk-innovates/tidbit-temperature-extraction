@@ -2,13 +2,14 @@ source("helper/functions.R")
 
 # unique identifier for each tidbit
 # 
-TB_files <- "C:/Users/ptandler/Documents/BurrelCreekProject/Year1_2024/01.Data/01.Selkirk/02.Raw_Data/06.Thermistor/prepared"
-TB_files <- "C:/Users/ptandler/Documents/BurrelCreekProject/Year2_2025/02.Data/01.Selkirk/02.Raw_Data/03.Sensor_Data/03.Tidbits/2025-09-04/prepared"
+# TB_files <- "C:/Users/ptandler/Documents/BurrelCreekProject/Year1_2024/01.Data/01.Selkirk/02.Raw_Data/06.Thermistor/prepared"
+# TB_files <- "C:/Users/ptandler/Documents/BurrelCreekProject/Year2_2025/02.Data/01.Selkirk/02.Raw_Data/03.Sensor_Data/03.Tidbits/2025-09-04/prepared"
 TB_files <- "C:/Users/ptandler/Documents/BurrelCreekProject/Year2_2025/02.Data/01.Selkirk/02.Raw_Data/03.Sensor_Data/03.Tidbits/2025-11-28/prepared"
+
+TB_lib()
 
 #' enter name or ID and a given time in this format: 07:45:02 or datetime is this format: 2025-09-04 08:13:23
 #' the function returns a temperature in the TB csv unit
-TB_lib()
 
 TB_temp(ID="21688182", time="15:00:00", path = TB_files)
 
